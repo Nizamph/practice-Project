@@ -10,7 +10,7 @@ const UsersList = (props) => {
     </li>
     ))}
   </ul>
-</Card> 
+</Card>
   );
 };
 
