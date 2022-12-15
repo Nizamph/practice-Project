@@ -36,7 +36,10 @@ function AddUser(props) {
                     return   [...prevState,{name:enteredName,age:enteredUserAge,collegeName:enteredCollegeName,id:Math.random().toString(),}] 
                    }
             )
-    
+        nameInputRef.current.value = '';
+        AgeInputRef.current.value = '';
+        CollegeNameInputRef.current.value = '';
+
                 
         }
      
